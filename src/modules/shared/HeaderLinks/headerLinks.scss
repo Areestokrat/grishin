@@ -1,0 +1,16 @@
+.header-links {
+    width: 291px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    &__link {
+        font-family: Open Sans Condensed;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #000000;
+        text-decoration: none;
+    }
+}

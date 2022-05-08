@@ -1,10 +1,12 @@
+import Main from '../../modules/Main';
+
 export const routing = [
+    // {
+    //     path: '/',
+    //     element: <Main />
+    // },
     {
-        path: '/',
-        element: <></>
-    },
-    {
-        path: 'mts-dating',
+        path: '/mts-dating',
         element: <></>
     }
 ];
