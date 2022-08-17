@@ -10,8 +10,6 @@ import mymusic from '../../logos/mymusic.svg';
 import houses from '../../logos/houses.svg';
 import riamo from '../../logos/riamo.svg';
 
-import mtsImg from '../../images/mts.png';
-
 const Main = () => {
     return (
         <div className='main__content'>
