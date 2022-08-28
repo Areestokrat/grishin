@@ -3,7 +3,7 @@
     height: 110px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    position: relative;
     &-logo {
         font-family: Open Sans Condensed;
         font-size: 40px;
@@ -11,7 +11,10 @@
         line-height: 40px;
         letter-spacing: 0em;
         text-align: center;
-        margin-left: 63px;
+        position: absolute;
+        left: 63px;
+        text-decoration: none;
+        color: #000000
     }
     &-link {
         font-family: Open Sans Condensed;
@@ -22,6 +25,12 @@
         text-align: center;
         text-decoration: none;
         color: #000000;
-        margin-right: 103px;
+        position: absolute;
+        right: 115px;
     }
+}
+
+.main-header-links {
+    position: absolute;
+    left: 555px;
 }

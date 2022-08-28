@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Header } from './Header';
 import './main.scss';
 
@@ -11,12 +12,18 @@ import houses from '../../logos/houses.svg';
 import riamo from '../../logos/riamo.svg';
 
 const Main = () => {
+    const navigate = useNavigate();
+
+    const handleNavigate = (destination) => {
+        navigate(`/${destination}`);
+    };
+
     return (
         <div className='main__content'>
             <Header />
             <div className='main__works'>
                 <div className='main__works-row'>
-                    <div className='main__works-block mts'>
+                    <div className='main__works-block mts' onClick={() => handleNavigate('mts-dating')}>
                         <div className='main__works-block-logo'>
                             <img src={mts} alt='mts' />
                             <span>знакомства</span>

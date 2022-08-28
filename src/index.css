@@ -5,5 +5,19 @@
 
 @font-face {
   font-family: Open Sans;
-  src: url('./fonts//OpenSans-Regular.ttf') format('truetype');
+  src: url('./fonts/OpenSans.ttf') format('truetype')
+}
+
+/* @font-face {
+  font-family: Open Sans;
+  src: url('./fonts/OpenSans-Bold.ttf') format('truetype');
+} */
+
+@font-face {
+  font-family: Open Sans Light;
+  src: url('./fonts/OpenSans-Light.ttf') format('truetype');
+}
+@font-face {
+  font-family: Open Sans ExtraBold;
+  src: url('./fonts/OpenSans-ExtraBold.ttf') format('truetype');
 }

@@ -1,0 +1,103 @@
+.mts-dating {
+    &__content {
+        height: 7830px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 1400px;
+    }
+    &__background-rectangle {
+        position: absolute;
+        z-index: 0;
+        height: 640px;
+        left: 0;
+        width: 100%;
+        background: linear-gradient(85.69deg, #EF425A 2.37%, #F39A47 97.57%);
+        transform: skewY(-10deg);
+    }
+    &__logo {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 140px;
+        img {
+            width: 200px;
+            height: 50px;
+        }
+        span {
+            margin-top: 10px;
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 30px;
+            line-height: 40px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #000000;
+        }
+    }
+    &__task {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        top: 314px;
+        &-first-text {
+            font-family: 'Open Sans ExtraBold';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 18px;
+            line-height: 30px;
+        }
+        &-second-text {
+            margin-top: 8px;
+            width: 680px;
+            white-space: normal;
+            text-align: center;
+            font-family: 'Open Sans Light';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 30px;
+            line-height: 40px;
+        }   
+    }
+    &__registration-img {
+        position: absolute;
+        top: 540px;
+        border-radius: 5px;
+    }
+    &__registration-text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: absolute;
+        top: 1218px;
+        &-header {
+            font-family: 'Open Sans ExtraBold';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 18px;
+            line-height: 30px;
+        }
+        &-body {
+            margin-top: 10px;
+            width: 680px;
+            white-space: normal;
+            font-family: 'Open Sans Light';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 30px;
+            line-height: 40px;
+        }
+    }
+}
+
+.first-rect {
+    top: 1550px;
+}
+.second-rect {
+    top: 4330px;
+}
+.third-rect {
+    top: 7070px;
+}

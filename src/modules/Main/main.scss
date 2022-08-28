@@ -17,6 +17,7 @@
             background: #FFFFFF;
             box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
             border-radius: 5px;
+            cursor: pointer;
             &-logo {
                 span {
                     font-family: 'Open Sans';
@@ -33,7 +34,7 @@
 }
 
 .mts {
-    background-image: url('../../images/mts.png');
+    background-image: url('./images/mts.png');
     background-position: center 360px;
     background-repeat: no-repeat;
     transition: .5s ease;
@@ -76,7 +77,7 @@
 }
 
 .maxim {
-    background-image: url('../../images/maxim.png');
+    background-image: url('./images/maxim.png');
     background-position: center 360px;
     background-repeat: no-repeat;
     transition: .5s ease;
@@ -106,7 +107,7 @@
 }
 
 .playboy {
-    background-image: url('../../images/playboy.png');
+    background-image: url('./images/playboy.png');
     background-position: center 360px;
     background-repeat: no-repeat;
     transition: .5s ease;
@@ -138,7 +139,7 @@
 }
 
 .beeline {
-    background-image: url('../../images/beeline.png');
+    background-image: url('./images/beeline.png');
     background-position: center 360px;
     background-repeat: no-repeat;
     transition: .5s ease;
@@ -180,7 +181,7 @@
 }
 
 .tele2 {
-    background-image: url('../../images/tele2.png');
+    background-image: url('./images/tele2.png');
     background-position: center 360px;
     background-repeat: no-repeat;
     transition: .5s ease;
@@ -229,7 +230,7 @@
 }
 
 .behealthy {
-    background-image: url('../../images/behealthy.png');
+    background-image: url('./images/behealthy.png');
     background-position: center 360px;
     background-repeat: no-repeat;
     transition: .5s ease;
@@ -271,7 +272,7 @@
 }
 
 .mymusic {
-    background-image: url('../../images/mymusic.png');
+    background-image: url('./images/mymusic.png');
     background-position: center 360px;
     background-repeat: no-repeat;
     transition: .5s ease;
@@ -296,7 +297,7 @@
 }
 
 .houses {
-    background-image: url('../../images/houses.png');
+    background-image: url('./images/houses.png');
     background-position: center 360px;
     background-repeat: no-repeat;
     transition: .5s ease;
@@ -326,7 +327,7 @@
 }
 
 .riamo {
-    background-image: url('../../images/riamo.png');
+    background-image: url('./images/riamo.png');
     background-position: center 360px;
     background-repeat: no-repeat;
     transition: .5s ease;
@@ -346,7 +347,7 @@
         transition: .5s ease;
     }
     span {
-        margin-top: 17px;
+        margin-top: 15px;
         transition: .5s ease;
     }
 }
@@ -368,7 +369,7 @@
 }
 
 .burger {
-    background-image: url('../../images/burger.png');
+    background-image: url('./images/burger.png');
     background-position: center 360px;
     background-repeat: no-repeat;
     transition: .5s ease;

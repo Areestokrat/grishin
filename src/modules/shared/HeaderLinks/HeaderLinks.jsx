@@ -2,9 +2,11 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './headerLinks.scss';
 
-export const HeaderLinks = () => {
+export const HeaderLinks = ({ positionClassname }) => {
+    const className = positionClassname ? `header-links ${positionClassname}` : 'header-links';
+
     return (
-        <div className='header-links'>
+        <div className={className}>
             <Link
                 to='/services'
                 className='header-links__link'

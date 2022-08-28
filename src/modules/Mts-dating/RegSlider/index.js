@@ -1,0 +1,1 @@
+export { RegSlider } from './RegSlider';

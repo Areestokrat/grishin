@@ -6,8 +6,8 @@ import './header.scss';
 export const Header = () => {
     return (
         <div className='main__header'>
-            <span className='main__header-logo'>ГРИШИN</span>
-            <HeaderLinks />
+            <Link to='/' className='main__header-logo'>ГРИШИN</Link>
+            <HeaderLinks positionClassname='main-header-links' />
             <Link
                 to='/me'
                 className='main__header-link'
